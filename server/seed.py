@@ -26,3 +26,5 @@ with app.app_context():
 
     db.session.add_all([aloe, zz_plant])
     db.session.commit()
+
+    print("Database seeded successfully!")
